@@ -190,15 +190,6 @@ declare module 'astro:content' {
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 };
-"code-of-conduct": {
-"code-of-conduct.md": {
-	id: "code-of-conduct.md";
-  slug: "code-of-conduct";
-  body: string;
-  collection: "code-of-conduct";
-  data: any
-} & { render(): Render[".md"] };
-};
 "events": {
 "a-combinatorial-problem-reed-nelson.md": {
 	id: "a-combinatorial-problem-reed-nelson.md";
@@ -222,20 +213,13 @@ declare module 'astro:content' {
   data: InferEntrySchema<"events">
 } & { render(): Render[".md"] };
 };
-"resources": {
-"README.md": {
-	id: "README.md";
-  slug: "readme";
-  body: string;
-  collection: "resources";
-  data: any
-} & { render(): Render[".md"] };
-};
 
 	};
 
 	type DataEntryMap = {
-		"coordinators": {
+		"code-of-conduct": {
+};
+"coordinators": {
 "ahmet-ahunbay": {
 	id: "ahmet-ahunbay";
   collection: "coordinators";
@@ -331,6 +315,8 @@ declare module 'astro:content' {
   collection: "coordinators";
   data: InferEntrySchema<"coordinators">
 };
+};
+"resources": {
 };
 
 	};

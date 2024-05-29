@@ -4,3 +4,6 @@
 [submodule "src/content/resources"]
 	path = src/content/resources
 	url = https://github.com/UW-UPL/resources
+[submodule "src/content/docs"]
+	path = src/content/docs
+	url = https://github.com/UW-UPL/Documentation
